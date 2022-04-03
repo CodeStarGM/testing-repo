@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#fullpage {
+    transition-delay: 0.2s !important;
+}
+.anim {
+    transform: translateX(-50px);
+    opacity: 0 ;
+}
+@media screen and (max-width: 1024px) {
+    #fullpage {
+     overflow: hidden;
+    }
+    .anim {
+        transform: translateX(-150px);
+        opacity: 0 ;
+        transition: all 1s ease-out;
+    }
+    .activeMobScroll {
+        transform: translateX(0px) !important;
+        opacity: 1 !important;
+        transition: all 1s ease-out;
+    }
+}
+

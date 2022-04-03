@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap");
+
+body {
+  font-family: "K2D", sans-serif;
+  overflow-x: hidden;
+  cursor: url("/cursor1.png"), auto;
+}
+
+body a {
+  text-decoration: none;
+  cursor: url("/cursor1.png"), auto;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.neemble2 {
+  background: linear-gradient(107.67deg, #ffffff -258.21%, #1e1f26 62.08%);
+  box-shadow: 0px 0px 22px #000000;
+}
+.shadoo {
+  box-shadow: 0px 0px 22px #000000;
+}
+.neembleTeam {
+  background: linear-gradient(107.67deg, #ffffff -258.21%, #1e1f26 62.08%);
+  box-shadow: 0px 0px 2px #000000;
+}
+.bg-new-neemble {
+  /* Rectangle 844 */
+  border-radius: 7px;
+  box-shadow: 0 4px 10px 0px #000000;
+}
+
+.pool {
+  background: rgba(30, 31, 38, 0.56);
+  box-shadow: 0px 4px 44px #49b6df;
+  backdrop-filter: blur(49px);
+}
+
+.nmbl-gradient-border {
+  border-image: linear-gradient(45deg, #003bd0, #00b2fa) 1;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.transparent {
+  background-color: hsla(0, 0%, 0%, 0);
+}
+
+.gradientRun {
+  font-weight: bold;
+  animation: graden 10s linear infinite;
+
+  background: linear-gradient(
+    135deg,
+    #00d8fa 0%,
+    #23a6d5 25%,
+    #23d5ab 50%,
+    #00d8fa 75%,
+    #23a6d5 100%
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes graden {
+  100% {
+    background-position: 400%;
+  }
+}
